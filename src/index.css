@@ -1,4 +1,6 @@
 body {
+	background: black;
+	color: white;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -10,4 +12,53 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* ---- Form ---- */
+input {
+	outline: none;
+	border: 3px solid white;
+	background: black;
+	color: white;
+}
+
+/* ---- Slider ---- */
+
+.MuiSlider-root {
+	color: white;
+	margin: 1rem auto 3rem auto !important;
+	display: block;
+}
+
+ .MuiSlider-root.MuiSlider-colorPrimary {
+	color: white;
+}
+.MuiSlider-root.MuiSlider-colorSecondary {
+	color: white;
+}
+
+.MuiSlider-root .MuiSlider-rail,
+.MuiSlider-root .MuiSlider-track {
+	height: 15px;
+	border-radius: 15px;
+}
+
+.MuiSlider-root .MuiSlider-thumb {
+	color: white;
+	width: 48px;
+	height: 48px;
+	margin-top: -17px;
+	margin-left: -17px;
+	box-shadow: none;
+}
+
+.MuiSlider-root .MuiSlider-valueLabel {
+	color: black;
+	font-size: 2rem;
+	top: -30px;
+	left: calc(50% - 16px);
+}
+
+.MuiSlider-root .MuiSlider-valueLabel span span {
+	color: white !important;
 }
